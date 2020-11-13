@@ -1,0 +1,59 @@
+.PortfolioContent {
+  height: auto;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 5vh;
+  padding-bottom: 10vh;
+}
+
+.project img {
+  height: 30vh;
+  width: 100%;
+}
+
+.project {
+  height: 30vh;
+  width: 100%;
+  margin-top: 10vh;
+  display: flex;
+}
+
+.project h3 {
+  padding-top: 20px;
+  padding-left: 20px;
+  color: white;
+}
+
+.project-left {
+  width: 50%;
+}
+
+.project-right {
+  width: 50%;
+}
+
+.project p {
+  padding-top: 20px;
+  padding-left: 20px;
+  color: white;
+}
+
+.project button {
+  margin-left: 20px;
+  margin-top: 80px;
+  height: 40px;
+  width: 200px;
+  border: 2px solid #009e66;
+  color: white;
+  background-color: #161616;
+}
+
+.portfolio-temp {
+  height: 70vh;
+  width: 100%;
+  background-color: #101010;
+}
+
+.portfolio button {
+  cursor: pointer;
+}

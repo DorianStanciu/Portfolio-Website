@@ -1,0 +1,138 @@
+.resume {
+  height: 100vh;
+  width: 95%;
+  background-color: #101010;
+  margin-left: 5%;
+}
+
+.resume-divs {
+  display: flex;
+  height: 80vh;
+  width: 60%;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.skills,
+.experience {
+  height: 70vh;
+  width: 45%;
+}
+
+.experience h3 {
+  color: white;
+  font-size: 26px;
+  margin-top: 9vh;
+  font-weight: 500;
+}
+
+.skills h3 {
+  color: white;
+  font-size: 26px;
+  margin-top: 9vh;
+  font-weight: 500;
+}
+
+.skills-content {
+  border-left: 2px solid #009e66;
+  background-color: #161616;
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 2vh;
+}
+
+.experience-content {
+  border-left: 2px solid #009e66;
+  background-color: #161616;
+  height: 55vh;
+  margin-top: 2vh;
+}
+
+.skills-div1 {
+  border-bottom: 1px solid grey;
+  height: 30%;
+  width: 100%;
+  padding-top: 4%;
+}
+
+.skills-div2 {
+  border-bottom: 1px solid grey;
+  height: 30%;
+  width: 100%;
+  padding-top: 4%;
+}
+
+.skills-div3 {
+  height: 30%;
+  width: 100%;
+  padding-top: 4%;
+}
+
+.skills-content h5 {
+  font-size: 20px;
+  color: white;
+}
+
+.skills-content p {
+  font-size: 14px;
+  color: #9f9f9f;
+}
+
+.skills-div1 i {
+  color: #009e66;
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+.skills-div2 i {
+  color: #009e66;
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+.skills-div3 i {
+  color: #009e66;
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+.skills-div1 p {
+  padding-left: 40px;
+}
+
+.skills-div2 p {
+  padding-left: 40px;
+}
+
+.skills-div3 p {
+  padding-left: 40px;
+}
+
+.skills-div2 h5 {
+  padding-left: 0;
+}
+
+.skills-div3 h5 {
+  padding-left: 0;
+}
+
+.experience-content i {
+  color: #009e66;
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+.experience-content h5 {
+  color: white;
+  font-size: 20px;
+  padding-top: 4%;
+}
+
+.experience-content p {
+  padding-left: 40px;
+  color: #9f9f9f;
+  padding-top: 20px;
+  padding-right: 40px;
+}

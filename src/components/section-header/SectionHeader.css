@@ -1,0 +1,47 @@
+.section-header {
+  text-align: center;
+  height: 20vh;
+  width: 100%;
+}
+
+.section-header h2 {
+  color: white;
+  font-size: 46px;
+  padding-top: 10vh;
+  font-weight: 700;
+  line-height: 46px;
+}
+
+.section-header button {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  background-color: #101010;
+  border: 0;
+}
+
+.section-header button i {
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+#section-hr {
+  background-color: #009e66;
+  height: 6px;
+  width: 12%;
+  margin: 0 auto;
+  margin-top: 40px;
+  border: 0;
+}
+
+/* responsive */
+
+@media screen and (max-width: 400px) {
+  #section-hr {
+    width: 20%;
+  }
+  .section-header h2 {
+    font-size: 36px;
+  }
+}

@@ -1,0 +1,103 @@
+.contact {
+  height: 100vh;
+  width: 95%;
+  margin-left: 5%;
+  background-color: #101010;
+}
+
+.contact-content {
+  height: 60vh;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 10vh;
+}
+
+.contact-left,
+.contact-right {
+  width: 40%;
+  height: 50vh;
+}
+
+.contact-right h3 {
+  padding-top: 30px;
+  padding-left: 30px;
+  color: white;
+  font-size: 24px;
+}
+
+.contact-right h5 {
+  color: grey;
+  font-size: 16px;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.contact-right-divs {
+  height: auto;
+  width: 80%;
+  padding-top: 40px;
+  display: flex;
+}
+
+.contact-right-div1 i {
+  font-size: 36px;
+  color: #009e66;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.contact-right-div2 h4 {
+  color: white;
+  font-size: 15px;
+  padding-top: 30px;
+}
+
+.contact-right-div2 p {
+  color: grey;
+  font-size: 14px;
+}
+
+.contact-right-div1 {
+  border-right: 1px solid grey;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.contact-right-div2 {
+  padding-left: 30px;
+}
+
+.contact-bottom {
+  height: 15vh;
+}
+
+/* responsive */
+
+@media screen and (max-width: 1000px) {
+  .contact {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+  .contact-content {
+    height: auto;
+    width: 100%;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .contact-left,
+  .contact-right {
+    width: 80%;
+    height: 60vh;
+    margin: 0 auto;
+  }
+  .contact-right,
+  .contact-left {
+    width: 94%;
+    margin: 0 auto;
+  }
+}

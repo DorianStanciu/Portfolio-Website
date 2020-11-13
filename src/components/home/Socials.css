@@ -1,0 +1,25 @@
+.socials {
+  height: 23%;
+  width: 6%;
+  position: absolute;
+  top: 77%;
+  left: 94%;
+}
+
+.socials a {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+}
+
+.socials i {
+  font-size: 23px;
+  padding: 8px;
+}
+
+.social-links {
+  list-style: none;
+}

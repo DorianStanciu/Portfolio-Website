@@ -46,7 +46,7 @@ class Portfolio extends Component {
                 <Sidebar />
                 <SectionHeader headerTitle={headerTitle}/>
                 <div className='filter'>
-                    <button onClick={this.allHandler} style={{color:this.state.dynamicColor1}}>All</button>
+                    <button id='btn1' onClick={this.allHandler} style={{color:this.state.dynamicColor1}}>All</button>
                     <button onClick={this.freelanceHandler} style={{color:this.state.dynamicColor2}}>Freelance</button>
                     <button onClick={this.developmentHandler} style={{color:this.state.dynamicColor3}}>Development</button>
                 </div>

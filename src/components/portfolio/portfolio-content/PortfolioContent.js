@@ -46,6 +46,9 @@ class PortfolioContent extends Component {
                     target='get_blank'><button>View Code</button></a>
                     </div>
                 </div>
+                <div className='portfolio-bottom'>
+                    
+                </div>
             </div>
         )
     }

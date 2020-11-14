@@ -23,7 +23,7 @@ class About extends Component {
                     <div className='about-right'>
                         <h3>Who am I?</h3>
                         <h2>I'm Dorian Stanciu, Freelance Web Developer</h2>
-                        <p>I am a freelancer based in the United Kingdom and i have been building noteworthy UX/UI designs and websites for years, which comply with the latest design trends. I help convert a vision and an idea into meaningful and useful products. Having a sharp eye for product evolution helps me prioritize tasks, iterate fast and deliver faster.</p>
+                        <p>Hi there! I'm Dorian Stanciu, front end web developer. I'm a well organised person, problem solver, I pay a lot of attention to small details because I think that's the main difference between a good website and a GREAT website. I currently work with React.js and php but I'm always excited to learn new technologies!</p>
                         <hr />
                         <div className='about-right-wrapper'>
                         <div className='about-right-div1'>
@@ -46,6 +46,7 @@ class About extends Component {
                         </div>
                     </div>
                 </div>
+                <div className='about-bottom'></div>
             </div>
 
             </Fragment>

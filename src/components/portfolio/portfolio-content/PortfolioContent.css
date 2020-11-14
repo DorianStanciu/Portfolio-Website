@@ -40,7 +40,7 @@
 
 .project button {
   margin-left: 20px;
-  margin-top: 80px;
+  margin-top: 50px;
   height: 40px;
   width: 200px;
   border: 2px solid #009e66;
@@ -56,4 +56,52 @@
 
 .portfolio button {
   cursor: pointer;
+}
+
+.portfolio-bottom {
+  height: 20vh;
+  background-color: #101010;
+  width: 100%;
+  display: none;
+}
+
+@media screen and (max-width: 1350px) {
+  .PortfolioContent {
+    width: 90%;
+  }
+  .project button {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .project {
+    margin-top: 200px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .portfolio-bottom {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .project {
+    display: block;
+    height: auto;
+  }
+  .project-left {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .project-right {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .project button {
+    width: 140px;
+  }
 }

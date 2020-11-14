@@ -13,3 +13,23 @@
   width: 1px;
   background-color: #363636;
 }
+
+/* responsive */
+
+@media screen and (max-width: 600px) {
+  .typewriter__type {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .typewriter__type {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .typewriter__type {
+    font-size: 12px;
+  }
+}

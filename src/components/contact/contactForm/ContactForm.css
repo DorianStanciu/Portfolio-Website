@@ -7,7 +7,6 @@
   color: white;
   font-size: 24px;
   padding-top: 30px;
-  padding-left: 30px;
 }
 
 input {
@@ -47,3 +46,5 @@ textarea::placeholder,
 input::placeholder {
   color: grey;
 }
+
+/* responsive */

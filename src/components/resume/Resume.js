@@ -50,6 +50,9 @@ class Resume extends Component {
                         </div>
                     </div>
                 </div>
+                <div className='resume-bottom'>
+                    
+                </div>
             </div>
 
             </Fragment>

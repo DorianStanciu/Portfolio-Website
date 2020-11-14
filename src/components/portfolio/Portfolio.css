@@ -7,7 +7,7 @@
 
 .filter {
   height: 5vh;
-  width: 20%;
+  width: 70%;
   margin: 0 auto;
   display: flex;
   margin-top: 5vh;
@@ -21,4 +21,41 @@
   border: none;
   padding: 40px;
   font-size: 15px;
+}
+
+/* responsive */
+
+@media screen and (max-width: 1050px) {
+  .portfolio {
+    height: auto;
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .filter {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .filter button {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .filter button {
+    width: 120px;
+    padding: 40px;
+  }
+  #btn1 {
+    width: 20px;
+  }
+  .filter {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+  }
 }

@@ -135,4 +135,54 @@
   color: #9f9f9f;
   padding-top: 20px;
   padding-right: 40px;
+  font-size: 14px;
+}
+
+.resume-bottom {
+  height: 15vh;
+  background-color: #101010;
+  width: 100%;
+  display: none;
+}
+
+/* responsive */
+
+@media screen and (max-width: 1200px) {
+  .resume-divs {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .resume {
+    width: 100%;
+    margin-left: 0;
+  }
+  .resume-divs {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .resume-divs {
+    height: auto;
+    width: 100%;
+    display: block;
+  }
+  .skills,
+  .experience {
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .resume {
+    height: auto;
+  }
+  .resume-bottom {
+    display: block;
+  }
+  .experience-content {
+    height: auto;
+  }
 }

@@ -23,3 +23,11 @@
 .social-links {
   list-style: none;
 }
+
+/* responsive */
+
+@media screen and (max-width: 1000px) {
+  .socials {
+    display: none;
+  }
+}

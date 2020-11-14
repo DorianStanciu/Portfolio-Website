@@ -6,6 +6,7 @@ import About from './components/about/About';
 import Portfolio from './components/portfolio/Portfolio';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Contact from './components/contact/Contact';
+import NotFound from './components/notfound/NotFound';
 
 class App extends Component{
 
@@ -28,6 +29,7 @@ render() {
             <Route exact path='/contact' 
             component={Contact} 
             />
+            <Route component={NotFound}/>
             </Switch>
     </Router>
   );

@@ -71,6 +71,8 @@
 
 .contact-bottom {
   height: 15vh;
+  background-color: #101010;
+  display: none;
 }
 
 /* responsive */
@@ -86,18 +88,52 @@
     width: 100%;
     display: block;
   }
-}
-
-@media screen and (max-width: 400px) {
   .contact-left,
   .contact-right {
     width: 80%;
     height: 60vh;
     margin: 0 auto;
   }
+  .contact-bottom {
+    display: block;
+  }
+  .contact-right h3 {
+    padding-left: 0;
+  }
+  .contact-right h5 {
+    padding-left: 0;
+  }
+  .contact-right {
+    margin-top: 200px;
+  }
+}
+
+@media screen and (max-width: 400px) {
   .contact-right,
   .contact-left {
     width: 94%;
     margin: 0 auto;
+  }
+  .contact-right {
+    margin-top: 200px;
+  }
+  .contact-right-divs {
+    width: 100%;
+  }
+  .contact-right-div1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .contact-right-div2 {
+    padding-left: 10px;
+  }
+  .contact-bottom {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .contact-right-div2 p {
+    font-size: 12px;
   }
 }

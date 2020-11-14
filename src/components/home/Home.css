@@ -30,3 +30,82 @@
   content: '';
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+.home iframe {
+  min-width: 100%;
+  min-height: 120%;
+  position: fixed;
+}
+
+/* responsive */
+
+@media screen and (max-width: 1400px) {
+  .home iframe {
+    -moz-transform: scale(2);
+    -webkit-transform: scale(2);
+    -o-transform: scale(2);
+    -ms-transform: scale(2);
+    transform: scale(2);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .home iframe {
+    -moz-transform: scale(3);
+    -webkit-transform: scale(3);
+    -o-transform: scale(3);
+    -ms-transform: scale(3);
+    transform: scale(3);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .home iframe {
+    -moz-transform: scale(5);
+    -webkit-transform: scale(5);
+    -o-transform: scale(5);
+    -ms-transform: scale(5);
+    transform: scale(5);
+  }
+}
+
+@media screen and (max-height: 700px) {
+  .home iframe {
+    -moz-transform: scale(5);
+    -webkit-transform: scale(5);
+    -o-transform: scale(5);
+    -ms-transform: scale(5);
+    transform: scale(5);
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .home iframe {
+    display: none;
+  }
+  .home {
+    background-image: url('./mobile.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #titleh1 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #titleh1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  #titleh1 {
+    font-size: 25px;
+  }
+}
